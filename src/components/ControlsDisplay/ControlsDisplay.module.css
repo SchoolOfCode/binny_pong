@@ -1,0 +1,50 @@
+.mainContainer {
+  position: absolute;
+  top: 0;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--primary-light);
+  border-radius: 10px;
+  animation: fade-in 0.4s linear;
+}
+
+.title,
+.settingsDisplay {
+  color: var(--primary-light);
+}
+
+.title {
+  font-family: var(--primary-font-family);
+  font-size: 4em;
+  margin: 0;
+}
+
+.setting {
+  color: ghostwhite;
+}
+.settingsDisplay {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin-left: 0.5em;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

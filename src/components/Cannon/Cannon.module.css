@@ -1,0 +1,6 @@
+.canvas {
+  border-bottom: 1px solid var(--tertiary-light);
+  position: absolute;
+  top: 0;
+  left: 0;
+}

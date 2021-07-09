@@ -1,0 +1,30 @@
+.base {
+  padding: 0.7em;
+  background-color: var(--primary-light);
+  border: 2px solid var(--tertiary-light);
+  color: var(--secondary-dark);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9em;
+  box-sizing: border-box;
+}
+
+.base:hover {
+  background-color: ghostwhite;
+  border: 2px solid var(--primary-light);
+  color: var(--tertiary-light);
+}
+
+.small {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: var(--primary-light);
+  font-weight: bold;
+  padding: 0.4em;
+}
+.small:hover {
+  background-color: transparent;
+  border: 1px solid var(--primary-light);
+  color: var(--primary-light);
+  color: ghostwhite;
+}
