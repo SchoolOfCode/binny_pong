@@ -12,7 +12,7 @@ Binny Pong is a React/Canvas cannon game to play over screen share on Zoom (buil
 
 ## Your task
 
-Use this time to explore each file of this code in your pair and document it here in this readme file. Here are a few questions and prompts to guide your exploration:
+Use this time to explore each file of this code in your pair and document it. Here are a few questions and prompts to guide your exploration:
 
 - What's the purpose of each file? How are the files organized in the repo?
 - What does each component do, and how do they interact? Include a component tree diagram that outlines the relationships.
